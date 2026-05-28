@@ -31,20 +31,6 @@ try:
         else:
             if ingrediente == "t":
                 ingrediente = "Tofu"
-    elif tipoPizza == 2:
-        tipoPizza = "No Vegetariana"
-        print("-------------       Menú no Vegetariano         -------------")
-        print("'Una pizza con una base de salsa de tomate y queso mozzarella'")
-        print("Ingredientes vegetariana: Pepperoni y carne")
-        ingrediente = input("Elige un ingrediente de la lista [P/J/S]: ").lower()
-        if ingrediente == "p":
-            ingrediente = "Pepperoni"
-        elif ingrediente == "j":
-             ingrediente = "Jamon"
-        elif ingrediente == "s":
-            ingrediente = "Salmon"
-        else:
-            print("Ingrediente no correcto")
 
 except ValueError:
     print("Error de valor ingresado")
